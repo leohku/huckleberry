@@ -7,10 +7,20 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: hsl(0deg, 0%, 60%);
 }
 
 /* Add styles here! */
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 60%);
+}
 
 header {
   background-color: hsl(0deg, 0%, 100%);
@@ -30,8 +40,12 @@ header {
   padding: 0 24px;
 }
 
+.intro-chunk p {
+  font-size: 1.25rem;
+}
+
 .title {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 32px;
 }
 
@@ -58,4 +72,9 @@ main {
   margin: 0;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+p {
+  font-size: 1.125rem;
+  margin: 1.125rem 0;
 }
