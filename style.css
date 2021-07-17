@@ -65,11 +65,11 @@ main {
 }
 
 .indented-heading {
-  display: inline-block;
-  position: relative;
-  left: -32px;
+  display: block;
+  width: fit-content;
   padding: 24px 32px;
   margin: 0;
+  margin-left: -32px;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }
